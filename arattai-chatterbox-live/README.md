@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
+💬 Arattai 2.0 – Real-Time Chat Application
+📘 Project Overview
 
-## Project info
+Arattai 2.0 is a real-time chat web application designed to enable instant communication between multiple users. The app provides a clean, responsive, and modern interface with real-time updates using Firebase.
 
-**URL**: https://lovable.dev/projects/ee030ba9-57ac-4d8c-ac65-72a7055f77ec
+This project was developed as part of the IBM-NJ Internship Project to demonstrate the use of web technologies and real-time data handling.
 
-## How can I edit this code?
+🚀 Features
 
-There are several ways of editing your application.
+🔹 Real-time messaging (instant send/receive)
 
-**Use Lovable**
+🔹 User login or nickname input
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ee030ba9-57ac-4d8c-ac65-72a7055f77ec) and start prompting.
+🔹 Message timestamps
 
-Changes made via Lovable will be committed automatically to this repo.
+🔹 Typing indicator for active users
 
-**Use your preferred IDE**
+🔹 Auto-scroll to latest message
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+🔹 Responsive design for mobile & desktop
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🔹 Sidebar showing online users
 
-Follow these steps:
+🔹 Dark/Light mode toggle (optional)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+🛠️ Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Frontend: React.js
 
-# Step 3: Install the necessary dependencies.
-npm i
+Backend: Firebase Realtime Database
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Styling: Tailwind CSS / Custom CSS
 
-**Edit a file directly in GitHub**
+Hosting: Lovable.app / Vercel
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+⚙️ How It Works
 
-**Use GitHub Codespaces**
+User enters a username to join the chat.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Firebase handles real-time data storage and retrieval.
 
-## What technologies are used for this project?
+Messages appear instantly across all active users.
 
-This project is built with:
+Timestamps and typing indicators are dynamically updated.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+📦 Project Structure
+Arattai-2.0/
+│
+├── src/
+│   ├── components/
+│   │   ├── ChatWindow.jsx
+│   │   ├── MessageInput.jsx
+│   │   ├── UserList.jsx
+│   │
+│   ├── App.jsx
+│   ├── index.js
+│
+├── public/
+│   └── index.html
+│
+├── package.json
+└── README.md
 
-## How can I deploy this project?
+🧠 Learning Outcomes
 
-Simply open [Lovable](https://lovable.dev/projects/ee030ba9-57ac-4d8c-ac65-72a7055f77ec) and click on Share -> Publish.
+Understanding of real-time data flow in web applications
 
-## Can I connect a custom domain to my Lovable project?
+Implementation of Firebase Realtime Database
 
-Yes, you can!
+Improved knowledge in React component-based architecture
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Experience with responsive UI design and state management
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+🚀 Deployment
+
+The project can be deployed using:
+
+Lovable.app (AI-generated deployment)
+
+Vercel or Netlify for manual React hosting
+
+🧑‍💻 Team
+
+Project Name: Arattai 2.0
+Domain: Real-Time Web Application
+Institution: IBM-NJ Internship Program
+Developed by: Deepakaran Murugan and Team
+
+📜 License
+
+This project is created for educational purposes and can be freely used, modified, and shared for learning and academic submissions.
